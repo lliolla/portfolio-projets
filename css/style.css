@@ -1,0 +1,16 @@
+body{
+    font-family: 'Raleway', sans-serif;
+    font-size: 20px;
+}
+.container{
+    display: flex;
+}
+.main_title{
+    font-family: 'Shadows Into Light Two', cursive;
+    font-size: 40px;
+    color: rgb(9, 130, 167);
+    border: 2px solid rgb(7, 88, 112);
+}
+.flipcard{
+    border: 2px solid rgb(7, 88, 112);
+}
