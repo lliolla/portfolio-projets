@@ -42,6 +42,12 @@ h2{
     background-color: transparent;
    
 }
+.flipcard_front{
+    border-radius:10px;
+}
+.flipcard_back{
+    border-radius:10px;
+}
 button{
     border-radius: 20px;
     width: 200px;
