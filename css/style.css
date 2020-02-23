@@ -1,8 +1,8 @@
 body{
     font-family: 'Raleway', sans-serif; 
-    font-size: 25px;  
+    font-size: 20px;  
     text-align: center;
-    background-image: url(/public/image/background.jpg);
+    background-image: url("/public/image/background.jpg");
 }
 .main_title{
     margin: 80px 0px;
@@ -15,21 +15,15 @@ body{
     margin: 20px 10PX;
 }
 
-img{
-    width: 20%;
-    height: 30%;
-}
-
 h1{
     font-size: 100px;
     font-family: 'Shadows Into Light Two', cursive;
     color:white;
     letter-spacing: 10px;
-   
-    
-    
+    margin: 0px 10PX;  
 }
-h2{
+
+h2.main_subtitle{
     font-size: 50px;
     font-family: 'Shadows Into Light Two', cursive;
     color:white;
@@ -42,12 +36,41 @@ h2{
     background-color: transparent;
    
 }
+/* Flip card front */
 .flipcard_front{
-    border-radius:10px;
+    border-radius:20px;
 }
+
+h2.flipcard_front_title{
+  font-size: 40px;
+  font-family: 'Shadows Into Light Two', cursive;
+  color:white;
+  margin: 30px 30px;
+}
+
+img{
+  width: 20%;
+  height: 30%;
+  margin:50px 0px;
+}
+.flipcard_front_content{
+  margin: 30px 30px;
+}
+
+/* Flip card back */
 .flipcard_back{
     border-radius:10px;
+   
 }
+
+ul.flipcard_competences{
+  margin: 50px;
+  text-align: left;
+}
+li{
+  margin:10px 0px;
+}
+
 button{
     border-radius: 20px;
     width: 200px;
@@ -56,6 +79,11 @@ button{
     background-color:white;
     color: rgb(85, 104, 110);
 }
+a {
+  text-decoration: none;
+  color: rgb(50, 134, 130) ;
+}
+
 /* ANNIMATION */
   
   /* This container is needed to position the front and back side */
